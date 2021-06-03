@@ -32,9 +32,7 @@ li {
   display: none;
 }
 
-/*--------------------------------
- レイアウト
----------------------------------*/
+
 .section {
   padding: 100px 0;
 }
@@ -45,9 +43,7 @@ li {
   padding: 0 40px;
 }
 
-/*--------------------------------
- 見出し
----------------------------------*/
+
 .title {
   font-size: 34px;
   line-height: 1;
@@ -61,9 +57,7 @@ li {
   margin-bottom: 30px;
 }
 
-/*--------------------------------
- header
----------------------------------*/
+
 .header {
   display: flex;
   align-items: center;
@@ -90,9 +84,7 @@ li {
   letter-spacing: .08em;
 }
 
-/*--------------------------------
- 下層ページのheader
----------------------------------*/
+
 .sub-header {
   display: flex;
   align-items: center;
@@ -120,9 +112,7 @@ li {
   color: #333;
 }
 
-/*--------------------------------
-グローバルナビ
----------------------------------*/
+
 .gnav {
   position: sticky;
   top: 0;
@@ -160,9 +150,7 @@ li {
   opacity: .8;
 }
 
-/*--------------------------------
- Works
----------------------------------*/
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -198,9 +186,7 @@ li {
   font-size: 12px;
 }
 
-/*--------------------------------
- Skill
----------------------------------*/
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
@@ -230,9 +216,7 @@ li {
   margin-bottom: 3px;
 }
 
-/*--------------------------------
- About
----------------------------------*/
+
 .profile {
   display: flex;
   flex-wrap: wrap;
@@ -254,12 +238,6 @@ li {
   margin-bottom: 30px;
 }
 
-
-
-
-/*--------------------------------
- Contact
----------------------------------*/
 .contact {
   text-align: center;
 }
@@ -271,9 +249,7 @@ li {
 .contact-text {
   margin-top: 10px;
 }
-/*--------------------------------
- ページトップ
----------------------------------*/
+
 .page-top {
   font-weight: bold;
   padding: 10px;
@@ -287,9 +263,7 @@ li {
   color: #333;
 }
 
-/*--------------------------------
- フッター
----------------------------------*/
+
 .footer {
   padding: 30px;
   background-color: #16cec5;
@@ -301,9 +275,7 @@ li {
   color: #797979;
 }
 
-/*--------------------------------
- 下層：Worksページ
----------------------------------*/
+
 .article {
   padding: 80px 0;
 }
@@ -346,8 +318,7 @@ li {
   text-align: center;
 }
 
-/*media Queries 767
-----------------------------------------------------*/
+
 @media screen and (max-width: 767px) {
   body {
     font-size: 13px;
@@ -362,13 +333,13 @@ li {
     display: block;
   }
 
-  /* 見出し */
+ 
   .title {
     font-size: 26px;
     margin-bottom: 20px;
   }
 
-  /* レイアウト */
+ 
   .section {
     padding: 60px 0;
   }
@@ -394,7 +365,7 @@ li {
     font-size: 18px;
   }
 
-  /*  下層ページのheader */
+
   .sub-header-inner {
     padding: 0 40px;
   }
@@ -407,7 +378,7 @@ li {
     font-size: 14px;
   }
 
-  /* グローバルナビ */
+  
   .gnav .inner {
     padding: 15px;
   }
@@ -428,7 +399,7 @@ li {
     display: none;
   }
 
-  /* Works */
+ 
   .works-name {
     font-size: 10px;
   }
@@ -443,7 +414,7 @@ li {
     margin-bottom: 30px;
   }
 
-  /* Skill */
+
   .skill-list {
     display: block;
     margin-bottom: 0;
@@ -458,7 +429,6 @@ li {
     margin-bottom: 0;
   }
 
-  /* About */
   .profile {
     display: block;
   }
@@ -472,12 +442,12 @@ li {
     margin-bottom: 20px;
   }
 
-  /* フッター */
+ 
   .footer {
     padding: 20px;
   }
 
-  /* 下層ページ */
+  
   .article {
     padding: 30px 0;
   }
